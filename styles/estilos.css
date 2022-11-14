@@ -1,0 +1,246 @@
+.fondo {
+  background-color: aliceblue;
+}
+
+.tienda {
+  position: absolute;
+  font-weight: bolder;
+  width: 100vw;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+  color: #FAF0Ca;
+  text-shadow: 0 0 5px black;
+  display: flex;
+  justify-content: center;
+  padding: -4px 180px 21px 224px;
+  margin-top: 26px;
+  margin-bottom: 106px;
+}
+
+.botonTienda {
+  border-radius: 10px;
+  font-size: 18px;
+  position: absolute;
+  padding-top: 86px;
+}
+.botonTienda button {
+  border-radius: 10px;
+  background-color: #f4d35e;
+  font-family: "Times New Roman", Times, serif;
+}
+.botonTienda button img {
+  width: 25px;
+  height: 25px;
+}
+
+.containerTienda {
+  background-color: antiquewhite;
+  height: 1495px;
+  width: 100vw;
+  padding-top: 0px;
+  padding-bottom: 100px;
+  padding-left: 23px;
+  margin-bottom: 0px;
+  display: grid;
+  align-items: start;
+  grid-template-columns: repeat(2, 172px);
+  grid-template-rows: repeat(5, 284px);
+  padding-right: 300px;
+  grid-template-areas: "item1 item2" "item3 item4" "item5 item6" "item7 item8" "item9 item10";
+}
+
+.img1 {
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+  padding-bottom: 70px;
+  margin-right: 27px;
+  background-color: white;
+}
+.img1 figcaption {
+  padding-left: 20px;
+  font-size: 13px;
+}
+.img1 p {
+  position: absolute;
+  color: aliceblue;
+  font-weight: bold;
+  margin-left: 22px;
+  margin-top: 37px;
+  margin-bottom: 5px;
+  padding-left: 18px;
+  padding-right: 5px;
+  padding-right: 24px;
+  border-radius: 35px;
+  background-color: #f4d35e;
+}
+
+.img1:hover {
+  transform: scale(1.1);
+}
+
+.item1 {
+  grid-area: item1;
+  width: 145px;
+  height: 166px;
+}
+
+.item2 {
+  grid-area: item2;
+  width: 145px;
+  height: 166px;
+}
+
+.item3 {
+  grid-area: item3;
+  width: 145px;
+  height: 166px;
+}
+
+.item4 {
+  grid-area: item4;
+  width: 145px;
+  height: 166px;
+}
+
+.item5 {
+  grid-area: item5;
+  width: 145px;
+  height: 166px;
+}
+
+.item6 {
+  grid-area: item6;
+  width: 145px;
+  height: 166px;
+}
+
+.item7 {
+  grid-area: item7;
+  width: 144px;
+  height: 166px;
+}
+
+.item8 {
+  grid-area: item8;
+  width: 145px;
+  height: 166px;
+}
+
+.item9 {
+  grid-area: item9;
+  width: 145px;
+  height: 166px;
+}
+
+.item10 {
+  grid-area: item9;
+  width: 145px;
+  height: 166px;
+}
+
+.img10 {
+  transition: all 0.2s ease-in-out;
+  padding-bottom: 58px;
+  margin-right: 27px;
+  background-color: aliceblue;
+}
+
+.img10:hover {
+  transform: scale(1.1);
+}
+
+figcaption {
+  font-weight: bolder;
+}
+
+@media all and (min-width: 1200px) {
+  .containerTienda {
+    background-color: #FAF0Ca;
+    height: 120vh;
+    width: 100vw;
+    padding-top: 130px;
+    padding-bottom: 0px;
+    padding-left: 80px;
+    margin-bottom: 20px;
+    display: grid;
+    align-items: start;
+    grid-template-columns: repeat(5, 227px);
+    grid-template-rows: repeat(2, 320px);
+    padding-right: 300px;
+    grid-template-areas: "item1 item2 item3 item4 item5" "item6 item7 item8 item9 item10";
+  }
+  .tienda {
+    padding: 12px 199px 34px 250px;
+    justify-content: none;
+  }
+  .img1 figcaption {
+    font-size: 16px;
+  }
+  .img1 p {
+    margin-left: 47px;
+  }
+  .item1 {
+    grid-area: item1;
+    width: 200px;
+    height: 200px;
+  }
+  .item2 {
+    grid-area: item2;
+    width: 200px;
+    height: 200px;
+  }
+  .item3 {
+    grid-area: item3;
+    width: 200px;
+    height: 200px;
+  }
+  .item4 {
+    grid-area: item4;
+    width: 200px;
+    height: 200px;
+  }
+  .item5 {
+    grid-area: item5;
+    width: 200px;
+    height: 200px;
+  }
+  .item6 {
+    grid-area: item6;
+    width: 200px;
+    height: 200px;
+  }
+  .item7 {
+    grid-area: item7;
+    width: 200px;
+    height: 200px;
+  }
+  .item8 {
+    grid-area: item8;
+    width: 200px;
+    height: 200px;
+  }
+  .item9 {
+    grid-area: item9;
+    width: 200px;
+    height: 200px;
+  }
+  .item10 {
+    grid-area: item9;
+    width: 200px;
+    height: 200px;
+  }
+}
+.nombre {
+  padding: 30px;
+  background-color: aqua;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 100px;
+  padding-left: 270px;
+  border-radius: 50%;
+}
+
+button {
+  margin-left: 620px;
+  background-color: white;
+}/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,100 @@
+
+@media all and (min-width: 1200px){
+.containerTienda {
+    background-color: #FAF0Ca;
+    height: 120vh;
+    width: 100vw;
+    padding-top: 130px;
+    padding-bottom: 0px;
+    padding-left: 80px;
+    margin-bottom: 20px;
+    display: grid;
+    align-items: start;
+    grid-template-columns: repeat(5, 227px);
+    grid-template-rows: repeat(2, 320px);
+    padding-right: 300px;
+    grid-template-areas: 
+    "item1 item2 item3 item4 item5" 
+    "item6 item7 item8 item9 item10";
+  }
+  .tienda {
+    padding: 12px 199px 34px 250px;
+    justify-content: none;
+
+  }
+  .img1 figcaption{
+    font-size: 16px;
+  }
+  .img1 p{
+    margin-left:47px;
+    
+
+  }
+  
+.item1{
+grid-area: item1;
+width: 200px;
+height: 200px;      
+}
+
+.item2{
+grid-area: item2;
+width: 200px;
+height: 200px;
+}
+
+
+.item3{
+grid-area: item3;
+width: 200px;
+height: 200px;
+}
+
+
+.item4{
+grid-area: item4;
+width: 200px;
+height: 200px;
+}
+
+.item5{
+grid-area: item5;
+width: 200px;
+height: 200px;
+}
+
+
+.item6{
+grid-area: item6;
+width: 200px;
+height: 200px;
+}
+
+
+.item7{
+grid-area: item7;
+width: 200px;
+height: 200px;
+}
+
+.item8{
+grid-area: item8;
+width: 200px;
+height: 200px;
+}
+
+.item9{
+grid-area: item9;
+width: 200px;
+height: 200px;
+}
+
+
+.item10{
+grid-area: item9;
+width: 200px;
+height: 200px;
+
+}
+
+}
